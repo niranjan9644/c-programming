@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+inta=19;
+if(a>0)
+{
+cout<<"the given number is positive number="<<a;
+}
+else;
+{
+cout<<"the given number is negative number="<<a;
+}
+return 0;
+}
