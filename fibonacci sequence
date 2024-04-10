@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int i,n1=0,n2=1,n=10;
+int nt=n1+n1;
+cout<<n1<<" "<<n2;
+for(i=1,i<=n,i++)
+{
+cout<<" "<<nt<<" ";
+n1=n2;
+n2=nt;
+nt=n1+n2;
+}
+return 0;
+}
